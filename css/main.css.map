@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,2BAA2B;EACxC,KAAK,EAAE,sBAAsB;EAC7B,MAAM,EAAE,CAAC;CACV",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/_base.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_placehorder.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
