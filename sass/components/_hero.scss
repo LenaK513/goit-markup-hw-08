@@ -1,5 +1,6 @@
 .hero {
-  max-width: 1600px;
+  @extend %img;
+  // max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   color: $color-third;
@@ -8,7 +9,9 @@
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -29,4 +32,7 @@
   text-transform: uppercase;
   margin-bottom: 30px;
   margin-top: 0px;
+  @media screen and(min-width:480px) {
+    width: 480px;
+  }
 }

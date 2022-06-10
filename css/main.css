@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-.nav__list, .contact-list {
+.nav__list, .contact-list, .features__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,6 +14,12 @@ body {
   text-decoration: none;
   padding: 0;
   margin: 0;
+}
+
+.hero {
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -161,7 +167,6 @@ body {
 }
 
 .hero {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   color: #ffffff;
@@ -170,6 +175,9 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/heroimg.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroimg.jpg);
 }
@@ -189,5 +197,45 @@ body {
   text-transform: uppercase;
   margin-bottom: 30px;
   margin-top: 0px;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__title {
+    width: 480px;
+  }
+}
+
+.features__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features__list {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.features__thumb {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features__description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
 }
 /*# sourceMappingURL=main.css.map */
