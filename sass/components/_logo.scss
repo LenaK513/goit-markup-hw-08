@@ -12,15 +12,20 @@
     color: $color-logo;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+}
+.header__logo {
+  @media screen and (min-width: 480px) {
     width: 480px;
     display: flex;
     align-items: center;
+    padding: 15px 0;
   }
+
+  // margin-right: 93px;
 }
-// .header__logo {
-//   margin-right: 93px;
-// }
 .logo__accent--footer {
   color: $color-third;
 }
