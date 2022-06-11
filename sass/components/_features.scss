@@ -1,58 +1,58 @@
-.features__container {
-  @media screen and(max-width:767px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  // padding-top: 94px;
-  // padding-bottom: 94px;
-}
+// .features__container {
+//   @media screen and(max-width:767px) {
+//     padding-top: 60px;
+//     padding-bottom: 60px;
+//   }
+//   // padding-top: 94px;
+//   // padding-bottom: 94px;
+// }
 
-.features__list {
-  @extend %ul;
-  // display: flex;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
+// .features__list {
+//   @extend %ul;
+//   // display: flex;
+//   font-size: 14px;
+//   letter-spacing: 0.03em;
+// }
 
-.features__item {
-  &:not(:last-child) {
-    @media screen and(max-width:767px) {
-      margin-bottom: 30px;
-    }
-  }
+// .features__item {
+//   &:not(:last-child) {
+//     @media screen and(max-width:767px) {
+//       margin-bottom: 30px;
+//     }
+//   }
 
-  // width: 270px;
+//   // width: 270px;
 
-  // &:not(:last-child) {
-  //   margin-right: 30px;
-  // }
-}
+//   // &:not(:last-child) {
+//   //   margin-right: 30px;
+//   // }
+// }
 
-.features__thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120px;
-  background-color: $color-addbackground;
-}
+// .features__thumb {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 120px;
+//   background-color: $color-addbackground;
+// }
 
-.features__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  text-align: center;
-  @media screen and(max-width:767px) {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-}
-.features__description {
-  font-size: 14px;
-  line-height: 1.71;
-  color: $color-secondary;
-  @media screen and(max-width:767px) {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
+// .features__title {
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-transform: uppercase;
+//   text-align: center;
+//   @media screen and(max-width:767px) {
+//     margin-top: 30px;
+//     margin-bottom: 10px;
+//   }
+// }
+// .features__description {
+//   font-size: 14px;
+//   line-height: 1.71;
+//   color: $color-secondary;
+//   @media screen and(max-width:767px) {
+//     margin-top: 0;
+//     margin-bottom: 0;
+//   }
+// }

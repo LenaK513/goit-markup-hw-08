@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-.nav__list, .contact-list, .features__list {
+.nav__list, .contact-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,14 +16,7 @@ body {
   margin: 0;
 }
 
-.hero {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-}
-
 .container {
-  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -164,102 +157,5 @@ body {
 .contact-list__item:focus .contact-list__icon,
 .contact-list__item:hover .contact-list__icon {
   fill: #2196f3;
-}
-
-.hero {
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
-  background-color: #2f303a;
-  letter-spacing: 0.06em;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/heroimg.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroimg.jpg);
-}
-
-@media screen and (min-width: 480px) {
-  .hero {
-    width: 480px;
-  }
-}
-
-.hero__title {
-  font-family: Roboto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-@media screen and (min-width: 480px) {
-  .hero__title {
-    width: 480px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .features__container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-
-.features__list {
-  font-size: 14px;
-  letter-spacing: 0.03em;
-}
-
-@media screen and (max-width: 767px) {
-  .features__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-
-.features__thumb {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 120px;
-  background-color: #f5f4fa;
-}
-
-.features__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-@media screen and (max-width: 767px) {
-  .features__title {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-}
-
-.features__description {
-  font-size: 14px;
-  line-height: 1.71;
-  color: #757575;
-}
-
-@media screen and (max-width: 767px) {
-  .features__description {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 }
 /*# sourceMappingURL=main.css.map */
