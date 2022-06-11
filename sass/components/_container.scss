@@ -6,7 +6,7 @@
   outline: 1px dotted blueviolet;
 
   @media screen and (max-width: 479px) {
-    width: 100%;
+    min-width: 100%;
   }
   @media screen and (min-width: 480px) {
     width: 480px;
