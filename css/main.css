@@ -368,12 +368,12 @@ body {
           align-items: center;
 }
 
-.team_container {
+.team__container {
   background-color: #f5f4fa;
 }
 
 @media screen and (max-width: 767px) {
-  .team_container {
+  .team__container {
     padding-top: 60px;
     padding-bottom: 60px;
   }
