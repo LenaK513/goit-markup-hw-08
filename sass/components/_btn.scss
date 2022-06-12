@@ -27,18 +27,17 @@
   margin: 0;
   border: none;
   background-color: transparent;
-}
 
-.btn-menu .btn-menu__icon-close {
-  display: none;
-}
+  & .btn-menu__icon-close {
+    display: none;
+  }
+  &.is-open .btn-menu__icon-close {
+    display: block;
+  }
 
-.btn-menu.is-open .btn-menu__icon-close {
-  display: block;
-}
-
-.btn-menu.is-open .btn-menu__icon-menu {
-  display: none;
+  &.is-open .btn-menu__icon-menu {
+    display: none;
+  }
 }
 
 .btn--submit {
