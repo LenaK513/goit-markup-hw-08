@@ -19,10 +19,12 @@
 
   @media screen and(min-width:480px) {
     width: 480px;
+  }
+}
 
-    align-items: center;
-    justify-content: center;
-    padding: 118px 60px;
+.hero__container {
+  @media screen and(min-width:480px) {
+    width: 480px;
   }
 }
 
