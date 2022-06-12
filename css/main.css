@@ -268,8 +268,12 @@ body {
   display: none;
 }
 
-.btn-menu .is-open .btn-menu__icon-close {
+.btn-menu.is-open .btn-menu__icon-close {
   display: block;
+}
+
+.btn-menu.is-open .btn-menu__icon-menu {
+  display: none;
 }
 
 .btn--submit {
