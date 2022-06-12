@@ -13,17 +13,16 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  // @media screen and(min-width:480px) {
-  //   margin: -30px;
-  // }
+  @media screen and(min-width:480px) {
+    margin: -15px;
+  }
 }
 
 .clients__item {
   @media screen and(min-width:480px) {
-  //   flex-basis: calc(100% / 2 - 30px);
-  //   margin-left: 30px;
-  //   margin-top: 30px;
-  // }
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 }
 
 .clients__link {
@@ -38,6 +37,14 @@
   align-items: center;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and(min-width:480px) {
+    width: 210px;
+  }
+
+  @media screen and(min-width:768px) {
+    width: 226px;
+  }
 
   &:hover,
   &:focus {
