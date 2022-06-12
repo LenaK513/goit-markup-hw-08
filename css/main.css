@@ -30,12 +30,6 @@ body {
   outline: 1px dotted blueviolet;
 }
 
-@media screen and (max-width: 479px) {
-  .container {
-    min-width: 100%;
-  }
-}
-
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -203,9 +197,9 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-  .hero__container {
-    width: 480px;
-    padding: 118px 60px;
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 }
 
@@ -213,6 +207,7 @@ body {
   font-family: Roboto;
   margin: 0;
   padding: 0;
+  width: 360px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -224,7 +219,8 @@ body {
 
 @media screen and (min-width: 480px) {
   .hero__title {
-    width: 380px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
 }
 
