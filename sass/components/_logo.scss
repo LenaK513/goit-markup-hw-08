@@ -22,6 +22,14 @@
     width: 480px;
   }
 }
+
+.logo__footer {
+  @media screen and (min-width: 480px) {
+    display: block;
+    text-align: center;
+  }
+}
+
 .logo__accent--footer {
   color: $color-third;
 }

@@ -4,13 +4,13 @@ body {
   margin: 0;
 }
 
-.nav__list, .contact-list, .features__list, .product__list, .team__list, .social-net, .clients__list {
+.nav__list, .contact-list, .features__list, .product__list, .team__list, .social-net, .clients__list, .address__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav__link, .logo, .contact-list__link, .product__link, .social-net__link {
+.nav__link, .logo, .contact-list__link, .product__link, .social-net__link, .address__link {
   text-decoration: none;
   padding: 0;
   margin: 0;
@@ -142,6 +142,13 @@ body {
 @media screen and (min-width: 480px) {
   .header__logo {
     width: 480px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .logo__footer {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -577,5 +584,88 @@ body {
 .clients__link:hover .clients__icon,
 .clients__link:hover .clients__icon {
   fill: #2196f3;
+}
+
+.footer {
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.address-block {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 480px) {
+  .address-block {
+    margin-bottom: 60px;
+  }
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 480px) {
+  .address {
+    text-align: center;
+  }
+}
+
+.address__location {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .address__location {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .address__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.address__link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 480px) {
+  .join-block {
+    margin-bottom: 60px;
+  }
+}
+
+.join-block__title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 480px) {
+  .join-block__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
