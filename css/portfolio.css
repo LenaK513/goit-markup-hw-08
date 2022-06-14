@@ -256,8 +256,8 @@ body.modal-open {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: aqua;
-    height: 500px;
+    background-color: #ffffff;
+    padding-left: 40px;
   }
 }
 
@@ -265,11 +265,15 @@ body.modal-open {
   display: block;
 }
 
+@media screen and (max-width: 767px) {
+  .nav__list:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
 .nav__link {
   font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   display: block;
   color: #212121;
@@ -279,6 +283,13 @@ body.modal-open {
 
 .nav__link--current {
   color: #2196f3;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__link {
+    font-size: 40px;
+    line-height: 1.17;
+  }
 }
 
 .nav__item:hover .nav__link,
