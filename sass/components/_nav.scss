@@ -6,6 +6,11 @@
     left: 0;
     width: 100%;
     background-color: aqua;
+    padding-left: 40px;
+  }
+
+  &.is-open {
+    display: block;
   }
 }
 

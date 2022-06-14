@@ -144,6 +144,11 @@ body.modal-open {
   display: none;
 }
 
+.btn-menu:hover .btn-menu__icon-menu,
+.btn-menu:focus .btn-menu__icon-menu {
+  fill: #2196f3;
+}
+
 @media screen and (min-width: 768px) {
   .btn-menu {
     display: none;
@@ -252,7 +257,12 @@ body.modal-open {
     left: 0;
     width: 100%;
     background-color: aqua;
+    height: 500px;
   }
+}
+
+.menu.is-open {
+  display: block;
 }
 
 .nav__link {

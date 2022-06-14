@@ -31,12 +31,17 @@
   & .btn-menu__icon-close {
     display: none;
   }
+
   &.is-open .btn-menu__icon-close {
     display: block;
   }
 
   &.is-open .btn-menu__icon-menu {
     display: none;
+  }
+  &:hover .btn-menu__icon-menu,
+  &:focus .btn-menu__icon-menu {
+    fill: $color-accent;
   }
 
   @media screen and (min-width: 768px) {
