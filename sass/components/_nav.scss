@@ -27,20 +27,23 @@
 
 .nav__list {
   @extend %ul;
+}
+
+.nav__item {
   @media screen and(max-width:767px) {
     &:not(:last-child) {
       margin-bottom: 32px;
     }
+    &:last-child {
+      margin-bottom: 302px;
+    }
   }
+  // position: relative;
+
+  // &:not(:last-child) {
+  //   margin-right: 50px;
+  // }
 }
-
-// .nav__item {
-//   position: relative;
-
-//   &:not(:last-child) {
-//     margin-right: 50px;
-//   }
-// }
 
 .nav__link {
   @extend %link;
