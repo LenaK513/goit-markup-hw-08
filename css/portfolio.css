@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .nav__list, .contact-list, .social-net, .grid, .card-set, .address__list {
   list-style-type: none;
   margin: 0;

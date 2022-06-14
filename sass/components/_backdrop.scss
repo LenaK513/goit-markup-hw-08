@@ -9,6 +9,7 @@
   transform: scale(1);
 
   transition: transform 250ms, opacity 250ms, scale 250ms;
+  // overflow-y: scroll;
 }
 
 .is-hidden {

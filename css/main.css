@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .nav__list, .contact-list, .features__list, .product__list, .team__list, .social-net, .clients__list, .address__list {
   list-style-type: none;
   margin: 0;
@@ -877,11 +881,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   background-color: #ffffff;
   opacity: 1;
   padding: 40px;
@@ -889,6 +888,11 @@ body {
 
 @media screen and (min-width: 480px) {
   .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 450px;
     height: 609px;
   }
