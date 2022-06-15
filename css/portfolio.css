@@ -302,6 +302,9 @@ body.modal-open {
     font-size: 40px;
     line-height: 1.17;
   }
+  .nav__link:hover, .nav__link:focus {
+    border-color: #2196f3;
+  }
 }
 
 .nav__item:hover .nav__link,

@@ -69,6 +69,10 @@
   @media screen and(max-width:767px) {
     font-size: 40px;
     line-height: 1.17;
+    &:hover,
+    &:focus {
+      border-color: $color-accent;
+    }
   }
   // &--current::after {
   //   position: absolute;
