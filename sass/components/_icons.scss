@@ -50,8 +50,12 @@
     letter-spacing: 0.02em;
     color: $color-accent;
     text-decoration: none;
-    // border-bottom: 1px solid rgba(33, 33, 33, 0.2);
-    // transform: border-bottom, rotate(90deg);
+    border-bottom: 1px solid rgba(33, 33, 330, 0.7);
+    transform: border-bottom, rotate(90deg);
+    &:hover,
+    &:focus {
+      outline: 1px solid $color-accent;
+    }
   }
 }
 
