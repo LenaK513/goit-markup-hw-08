@@ -50,21 +50,19 @@
     letter-spacing: 0.02em;
     color: $color-accent;
     text-decoration: none;
-    border-bottom: 1px solid rgba(33, 33, 33, 0.2);
-    transform: border-bottom, rotate(90deg);
+    // border-bottom: 1px solid rgba(33, 33, 33, 0.2);
+    // transform: border-bottom, rotate(90deg);
+    &::after {
+      position: absolute;
+
+      content: "";
+      height: 100%;
+      border: 1px solid rgba(33, 33, 33, 0.9);
+
+      top: 0;
+      left: 0;
+    }
   }
-
-  // &::after {
-  //   position: absolute;
-
-  //   content: "";
-  //   height: 100%;
-  //   width: 100%;
-  //   border-left-color: rgba(33, 33, 33, 0.9);
-
-  //   top: 0;
-  //   left: 0;
-  // }
 }
 
 .social-net__icon {

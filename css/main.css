@@ -675,9 +675,14 @@ body.modal-open {
     letter-spacing: 0.02em;
     color: #2196f3;
     text-decoration: none;
-    border-bottom: 1px solid rgba(33, 33, 33, 0.2);
-    -webkit-transform: border-bottom, rotate(90deg);
-            transform: border-bottom, rotate(90deg);
+  }
+  .social-net__link--menu::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.9);
+    top: 0;
+    left: 0;
   }
 }
 
