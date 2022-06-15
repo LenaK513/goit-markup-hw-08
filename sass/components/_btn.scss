@@ -49,6 +49,10 @@
     fill: $color-accent;
   }
 
+  &:hover .btn-menu__icon-close,
+  &:focus .btn-menu__icon-close {
+    fill: $color-accent;
+  }
   @media screen and (min-width: 768px) {
     display: none;
   }
