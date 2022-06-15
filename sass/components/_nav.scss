@@ -1,16 +1,23 @@
 .menu {
   @media screen and (max-width: 767px) {
-    display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 0;
     left: 0;
-    width: 100%;
-    background-color: $color-third;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(230, 248, 248);
     padding-left: 40px;
+    transform: translateX(100%);
   }
 
   &.is-open {
-    display: block;
+    transform: translateX(0);
+  }
+
+  .menu .btn-menu {
+    position: absolute;
+    top: 10px;
+    right: 15px;
   }
 }
 

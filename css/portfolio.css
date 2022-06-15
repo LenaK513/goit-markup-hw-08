@@ -125,11 +125,19 @@ body.modal-open {
 }
 
 .btn-menu {
+  min-height: 40px;
+  min-width: 40px;
   display: inline-block;
-  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0;
-  border: none;
+  padding: 0;
   background-color: transparent;
+  border: none;
 }
 
 .btn-menu .btn-menu__icon-close {
@@ -251,18 +259,27 @@ body.modal-open {
 
 @media screen and (max-width: 767px) {
   .menu {
-    display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 0;
     left: 0;
-    width: 100%;
-    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6f8f8;
     padding-left: 40px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 
 .menu.is-open {
-  display: block;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.menu .menu .btn-menu {
+  position: absolute;
+  top: 10px;
+  right: 15px;
 }
 
 @media screen and (max-width: 767px) {

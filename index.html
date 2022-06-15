@@ -35,8 +35,9 @@
           >
           <button
             type="button"
-            class="btn-menu"
+            class="btn-menu js-open-menu"
             aria-expanded="false"
+            aria-controls="mobile-menu"
             data-menu-button
           >
             <svg
@@ -54,8 +55,21 @@
               ></use>
             </svg>
           </button>
-          <div class="menu" data-menu>
-            <nav class="nav">
+          <div class="menu js-menu-container" id="mobile-menu" data-menu>
+            <button class="btn-menu js-close-menu">
+              <svg
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="btn-menu__icon-close"
+                href="./images/icons.svg#close"
+              ></use>
+             </svg>
+            </button>
+            <div class="mobile-menu">
+              <nav class="nav">
               <ul class="nav__list">
                 <li class="nav__item">
                   <a href="./studio.html" class="nav__link nav__link--current"
@@ -97,6 +111,8 @@
               <li class="social-net__item><a href="">Facebook</a></li>
               <li class="social-net__item><a href="">LinkedIn</a></li>
             </ul>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -600,5 +616,12 @@
     </div>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
