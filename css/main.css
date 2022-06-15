@@ -70,13 +70,17 @@ body.modal-open {
   height: 100vh;
   background-color: #ffffff;
   padding: 40px;
-  -webkit-transform: translate(100%);
-          transform: translate(100%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
 }
 
 .menu.is-open {
-  -webkit-transform: translate(0);
-          transform: translate(0);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .menu .btn-menu {
@@ -112,9 +116,6 @@ body.modal-open {
   .nav__link {
     font-size: 40px;
     line-height: 1.17;
-  }
-  .nav__link:hover, .nav__link:focus {
-    border-color: #2196f3;
   }
 }
 
@@ -674,19 +675,10 @@ body.modal-open {
     letter-spacing: 0.02em;
     color: #2196f3;
     text-decoration: none;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.2);
+    -webkit-transform: border-bottom, rotate(90deg);
+            transform: border-bottom, rotate(90deg);
   }
-}
-
-.social-net__link--menu::after {
-  position: absolute;
-  display: inline-block;
-  content: "";
-  height: 1px;
-  width: 100%;
-  color: rgba(33, 33, 33, 0.8);
-  rotate: 90deg;
-  bottom: 0;
-  left: 10px;
 }
 
 .social-net__icon {

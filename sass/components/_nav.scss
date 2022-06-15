@@ -6,11 +6,12 @@
   height: 100vh;
   background-color: $color-third;
   padding: 40px;
-  transform: translate(100%);
+  transform: translateY(-100%);
+  transition: transform 250ms linear;
 }
 
 .menu.is-open {
-  transform: translate(0);
+  transform: translateY(0);
 }
 
 .menu .btn-menu {
@@ -69,10 +70,6 @@
   @media screen and(max-width:767px) {
     font-size: 40px;
     line-height: 1.17;
-    &:hover,
-    &:focus {
-      border-color: $color-accent;
-    }
   }
   // &--current::after {
   //   position: absolute;
