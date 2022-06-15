@@ -1,12 +1,23 @@
-// .menu {
-//   // position: fixed;
-//   // top: 0;
-//   // left: 0;
-//   width: 100%;
-//   // height: 100vh;
-//   background-color: rgb(230, 248, 248);
-//   padding: 40px;
-// }
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(226, 244, 238);
+  padding: 40px;
+  transform: translate(100%);
+}
+
+.menu.is-open {
+  transform: translate(0);
+}
+
+.menu .btn-menu {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
 
 .nav,
 .nav__list {
@@ -24,14 +35,14 @@
 }
 
 .nav__item {
-  // @media screen and(max-width:767px) {
-  //   &:not(:last-child) {
-  //     margin-bottom: 32px;
-  //   }
-  //   &:last-child {
-  //     margin-bottom: 302px;
-  //   }
-  // }
+  @media screen and(max-width:767px) {
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+    &:last-child {
+      margin-bottom: 302px;
+    }
+  }
   // position: relative;
 
   // &:not(:last-child) {
@@ -54,10 +65,11 @@
   &--current {
     color: $color-accent;
   }
-  // @media screen and(max-width:767px) {
-  //   font-size: 40px;
-  //   line-height: 1.17;
-  // }
+
+  @media screen and(max-width:767px) {
+    font-size: 40px;
+    line-height: 1.17;
+  }
   // &--current::after {
   //   position: absolute;
   //   display: inline-block;
