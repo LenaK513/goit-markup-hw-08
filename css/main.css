@@ -117,6 +117,9 @@ body.modal-open {
     font-size: 40px;
     line-height: 1.17;
   }
+  .nav__link:hover, .nav__link:focus {
+    border-color: #2196f3;
+  }
 }
 
 .nav__item:hover .nav__link,
@@ -675,14 +678,6 @@ body.modal-open {
     letter-spacing: 0.02em;
     color: #2196f3;
     text-decoration: none;
-  }
-  .social-net__link--menu::after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    border: 1px solid rgba(33, 33, 33, 0.9);
-    top: 0;
-    left: 0;
   }
 }
 
