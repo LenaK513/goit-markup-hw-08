@@ -3,18 +3,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
+
 .social-net__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-net__item--menu {
-  @media screen and(max-width:676px){
-     &:not(:last-child) {
-     margin-right: 20px;
-      }
+.social-net__item--menu:not(:last-child) {
+  margin-right: 10px;
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
 }
-
 .social-net__link {
   @extend %link;
   display: flex;
@@ -39,14 +41,12 @@
 
 .social-net__link--menu {
   @media screen and(max-width:767px) {
-    @extend %link;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: $color-accent;
-
-    
+    text-decoration: none;
   }
 }
 

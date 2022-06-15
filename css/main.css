@@ -14,7 +14,7 @@ body.modal-open {
   padding: 0;
 }
 
-.nav__link, .logo, .contact-list__link, .product__link, .social-net__link, .social-net__link--menu, .address__link {
+.nav__link, .logo, .contact-list__link, .product__link, .social-net__link, .address__link {
   text-decoration: none;
   padding: 0;
   margin: 0;
@@ -620,10 +620,20 @@ body.modal-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .social-net__item:not(:last-child) {
   margin-right: 10px;
+}
+
+.social-net__item--menu:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-net__item--menu:not(:last-child):not(:first-child) {
+  margin-left: 10px;
 }
 
 .social-net__link {
@@ -653,12 +663,15 @@ body.modal-open {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-net__link--menu {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+@media screen and (max-width: 767px) {
+  .social-net__link--menu {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+    text-decoration: none;
+  }
 }
 
 .social-net__icon {
