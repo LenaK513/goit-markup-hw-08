@@ -68,7 +68,7 @@ body.modal-open {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #e2f4ee;
+  background-color: #ffffff;
   padding: 40px;
   -webkit-transform: translate(100%);
           transform: translate(100%);
@@ -620,8 +620,12 @@ body.modal-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0;
-  margin: 0;
+}
+
+.social-net--menu {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .social-net__item:not(:last-child) {
@@ -629,11 +633,7 @@ body.modal-open {
 }
 
 .social-net__item--menu:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-net__item--menu:not(:last-child):not(:first-child) {
-  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .social-net__link {
@@ -672,6 +672,18 @@ body.modal-open {
     color: #2196f3;
     text-decoration: none;
   }
+}
+
+.social-net__link--menu::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: 100%;
+  color: rgba(33, 33, 33, 0.8);
+  rotate: 90deg;
+  bottom: 0;
+  left: 10px;
 }
 
 .social-net__icon {
