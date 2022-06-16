@@ -261,8 +261,8 @@ body.modal-open {
   height: 100vh;
   background-color: #ffffff;
   padding: 40px;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
   -webkit-transition: -webkit-transform 250ms linear;
   transition: -webkit-transform 250ms linear;
   transition: transform 250ms linear;
