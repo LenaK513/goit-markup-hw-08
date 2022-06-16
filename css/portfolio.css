@@ -72,6 +72,7 @@ body.modal-open {
 }
 
 .header__logo {
+  display: inline-block;
   min-height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,6 +293,23 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .general-menu {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .general-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav,
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
