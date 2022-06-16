@@ -12,7 +12,7 @@
   margin-right: 10px;
 }
 .social-net__item--menu:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 10px;
   //   // &:not(:last-child) {
   //   //   border-spacing: 10px;
   //   //   border-right: 1px solid rgba(33, 33, 33, 0.8);
@@ -49,14 +49,17 @@
     letter-spacing: 0.02em;
     color: $color-accent;
     text-decoration: none;
-    &:not(:last-child) {
-      border-right: 1px solid rgba(33, 33, 330, 0.7);
-      margin-right: 10px;
-    }
+
+    padding-right: 10px;
+
     &:focus {
       outline: 1px solid $color-accent;
     }
   }
+}
+
+.social-net__link--menu:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 330, 0.7);
 }
 
 .social-net__icon {

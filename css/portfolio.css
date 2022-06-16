@@ -410,7 +410,7 @@ body.modal-open {
 }
 
 .social-net__item--menu:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .social-net__link {
@@ -448,14 +448,15 @@ body.modal-open {
     letter-spacing: 0.02em;
     color: #2196f3;
     text-decoration: none;
-  }
-  .social-net__link--menu:not(:last-child) {
-    border-right: 1px solid rgba(33, 33, 255, 0.7);
-    margin-right: 10px;
+    padding-right: 10px;
   }
   .social-net__link--menu:focus {
     outline: 1px solid #2196f3;
   }
+}
+
+.social-net__link--menu:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 255, 0.7);
 }
 
 .social-net__icon {
