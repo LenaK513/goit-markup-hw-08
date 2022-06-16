@@ -99,6 +99,12 @@ body.modal-open {
 }
 
 @media screen and (max-width: 767px) {
+  .general-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .nav__item:not(:last-child) {
     margin-bottom: 32px;
   }
@@ -751,6 +757,12 @@ body.modal-open {
   }
   .social-net__link--menu:focus {
     outline: 1px solid #2196f3;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .social-net__link--menu {
+    display: none;
   }
 }
 

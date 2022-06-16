@@ -56,6 +56,9 @@
       outline: 1px solid $color-accent;
     }
   }
+  @media screen and(min-width:767px) {
+    display: none;
+  }
 }
 
 .social-net__icon {
