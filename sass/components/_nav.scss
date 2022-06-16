@@ -26,6 +26,12 @@
   right: 15px;
 }
 
+.general-menu {
+  @media and(max-width:767px) {
+    display: none;
+  }
+}
+
 .nav,
 .nav__list {
   // display: flex;
