@@ -17,7 +17,7 @@
     url(../images/heroimg.jpg);
   // max-width: 1600px;
 
-  @media screen and(min-width:480px) {
+  @media screen and(max-width:767px) {
     padding-top: 118px;
     padding-bottom: 118px;
     margin-left: auto;
