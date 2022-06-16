@@ -63,13 +63,15 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
-  //   display: block;
-  //   fill: $color-secondary;
-  //   // margin-right: 10px;
-  //   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    fill: $color-secondary;
+    // margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  //   .contact-list__item:focus &,
-  //   .contact-list__item:hover & {
-  //     fill: $color-accent;
-  //   }
+    .contact-list__item:focus &,
+    .contact-list__item:hover & {
+      fill: $color-accent;
+    }
+  }
 }
