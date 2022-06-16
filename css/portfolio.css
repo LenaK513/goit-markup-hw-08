@@ -448,11 +448,12 @@ body.modal-open {
     letter-spacing: 0.02em;
     color: #2196f3;
     text-decoration: none;
-    border-bottom: 1px solid rgba(33, 33, 255, 0.7);
-    -webkit-transform: border-bottom, rotate(90deg);
-            transform: border-bottom, rotate(90deg);
   }
-  .social-net__link--menu:hover, .social-net__link--menu:focus {
+  .social-net__link--menu:not(:last-child) {
+    border-right: 1px solid rgba(33, 33, 255, 0.7);
+    margin-right: 10px;
+  }
+  .social-net__link--menu:focus {
     outline: 1px solid #2196f3;
   }
 }
