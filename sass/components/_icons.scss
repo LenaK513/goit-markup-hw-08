@@ -13,10 +13,10 @@
 }
 .social-net__item--menu:not(:last-child) {
   margin-right: 10px;
-  //   // &:not(:last-child) {
-  //   //   border-spacing: 10px;
-  //   //   border-right: 1px solid rgba(33, 33, 33, 0.8);
-  //   // }
+  &:not(:last-child) {
+    padding-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.8);
+  }
 }
 
 .social-net__link {
@@ -50,16 +50,15 @@
     color: $color-accent;
     text-decoration: none;
 
-    padding-right: 10px;
+    // padding-right: 10px;
 
     &:focus {
       outline: 1px solid $color-accent;
     }
+    // .social-net__link--menu:nth-child(-n + 3) {
+    //   border-right: 1px solid rgba(33, 33, 330, 0.7);
+    // }
   }
-}
-
-.social-net__link--menu:not(:last-child) {
-  border-right: 1px solid rgba(33, 33, 330, 0.7);
 }
 
 .social-net__icon {

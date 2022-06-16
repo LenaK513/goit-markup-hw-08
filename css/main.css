@@ -655,6 +655,11 @@ body.modal-open {
   margin-right: 10px;
 }
 
+.social-net__item--menu:not(:last-child):not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.8);
+}
+
 .social-net__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -690,15 +695,10 @@ body.modal-open {
     letter-spacing: 0.02em;
     color: #2196f3;
     text-decoration: none;
-    padding-right: 10px;
   }
   .social-net__link--menu:focus {
     outline: 1px solid #2196f3;
   }
-}
-
-.social-net__link--menu:not(:last-child) {
-  border-right: 1px solid rgba(33, 33, 255, 0.7);
 }
 
 .social-net__icon {
