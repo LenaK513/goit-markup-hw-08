@@ -1,6 +1,7 @@
 .contact-list {
   // align-items: center;
   @extend %ul;
+  margin-left: auto;
   @media screen and(max-width:767px) {
     display: flex;
     flex-direction: column-reverse;
@@ -8,10 +9,6 @@
 
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: auto;
-  // @media screen and(max-width:767px) {
-  //   display: none;
-  // }
 }
 
 .contact-list__item {
