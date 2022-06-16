@@ -76,6 +76,7 @@ body.modal-open {
   transition: -webkit-transform 250ms linear;
   transition: transform 250ms linear;
   transition: transform 250ms linear, -webkit-transform 250ms linear;
+  z-index: 88;
 }
 
 .menu.is-open {
