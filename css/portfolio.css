@@ -362,6 +362,12 @@ body.modal-open {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .nav__item:first-child {
+    margin-left: 93px;
+  }
+}
+
 .nav__link {
   font-family: Roboto;
   font-weight: 500;
@@ -429,6 +435,17 @@ body.modal-open {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .contact-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .contact-list__item:first-child {
     margin-top: 32px;
@@ -439,6 +456,12 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .contact-list__item:first-child {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-list__item {
+    margin-bottom: 0;
   }
 }
 
@@ -611,7 +634,19 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
+  .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .grid__item:not(:last-child) {
     margin-right: 8px;
   }
@@ -620,9 +655,34 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 470px) {
+@media screen and (min-width: 768px) {
+  .grid__item:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .card-set__item:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-set__item {
+    -ms-flex-preferred-size: calc((100% - 4 * 15px) / 2);
+        flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
   }
 }
 
@@ -644,6 +704,12 @@ body.modal-open {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
     width: 100%;
   }
 }
@@ -699,6 +765,12 @@ body.modal-open {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+}
+
+@media screen and (min-width: 768px) {
+  .card__name {
+    width: 100%;
+  }
 }
 
 .card__title {

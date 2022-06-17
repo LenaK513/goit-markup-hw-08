@@ -73,11 +73,13 @@
 
     position: relative;
   }
-  // &:not(:last-child) {
-  //   margin-right: 50px;
-  // }
-}
 
+  @media screen and(min-width:1200px) {
+    &:first-child {
+      margin-left: 93px;
+    }
+  }
+}
 .nav__link {
   @extend %link;
   font-family: Roboto;
