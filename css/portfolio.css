@@ -726,6 +726,12 @@ body.modal-open {
   }
 }
 
+.card > .card__name {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
 .card__img {
   display: block;
   width: 100%;

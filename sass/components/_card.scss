@@ -12,6 +12,9 @@
     justify-content: center;
     width: 100%;
   }
+  & > .card__name {
+    flex-grow: 2;
+  }
 }
 
 .card__img {
