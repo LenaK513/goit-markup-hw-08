@@ -676,6 +676,7 @@ body.modal-open {
   .card-set {
     margin-left: -30px;
     margin-top: -30px;
+    margin-bottom: 0;
   }
 }
 
@@ -699,6 +700,7 @@ body.modal-open {
         flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 0;
   }
 }
 
