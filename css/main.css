@@ -133,6 +133,7 @@ body.modal-open {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 100%;
   }
 }
 
@@ -161,6 +162,9 @@ body.modal-open {
 }
 
 @media screen and (min-width: 768px) {
+  .nav__item {
+    position: relative;
+  }
   .nav__item:not(:last-child) {
     margin-right: 50px;
   }
@@ -194,7 +198,19 @@ body.modal-open {
 
 @media screen and (min-width: 768px) {
   .nav__link {
+    display: inline-block;
     font-size: 14px;
+  }
+  .nav__link--current::after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #2196f3;
+    border-radius: 2px;
+    bottom: -32px;
+    left: 0;
   }
 }
 
@@ -268,6 +284,12 @@ body.modal-open {
   .contact-list__item:first-child {
     margin-top: 32px;
     margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-list__item:first-child {
+    margin-bottom: 10px;
   }
 }
 

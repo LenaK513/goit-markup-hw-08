@@ -18,6 +18,11 @@
       margin-bottom: 64px;
     }
   }
+  @media screen and(min-width:768px) {
+    &:first-child {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .contact-list__link {
