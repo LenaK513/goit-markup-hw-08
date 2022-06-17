@@ -9,10 +9,11 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
   @media screen and(min-width:480px) {
-    // justify-content: center;
+    justify-content: center;
     width: 100%;
   }
 }
+
 .card__img {
   display: block;
   width: 100%;
@@ -56,9 +57,6 @@
   border-right: 1px solid $card-portfolio;
   border-left: 1px solid $card-portfolio;
   border-bottom: 1px solid $card-portfolio;
-  @media screen and(min-width:768px) {
-    flex-grow: 1;
-  }
 }
 
 .card__title {

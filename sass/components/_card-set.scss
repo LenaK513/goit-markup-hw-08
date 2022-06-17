@@ -1,10 +1,10 @@
 .card-set {
   @extend %ul;
-  display: flex;
-  flex-wrap: wrap;
 
   @media screen and(min-width:768px) {
     // justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     margin: -15px;
   }
 
@@ -15,13 +15,13 @@
 }
 
 .card-set__item {
-  @media screen and(max-width:767px) {
+  @media screen and(min-width:480px) {
     &:not(:last-child) {
       margin-bottom: 30px;
     }
   }
 
-  @media screen and(max-width:1199px) {
+  @media screen and(min-width:768px) {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
