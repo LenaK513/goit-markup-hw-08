@@ -23,14 +23,15 @@
       margin-bottom: 64px;
     }
   }
-  @media screen and(min-width:768px) {
+  @media screen and(max-width:1199px) {
     &:first-child {
       margin-bottom: 10px;
     }
   }
-
   @media screen and(min-width:1200px) {
-    margin-bottom: 0;
+    &:first-child {
+      margin-right: 30px;
+    }
   }
 }
 
