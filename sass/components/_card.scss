@@ -12,11 +12,6 @@
     // justify-content: center;
     width: 100%;
   }
-  // @media screen and(min-width:768px) {
-  //   width: 100%;
-  //   height: auto;
-  //   display: block;
-  // }
 }
 .card__img {
   display: block;
@@ -61,6 +56,9 @@
   border-right: 1px solid $card-portfolio;
   border-left: 1px solid $card-portfolio;
   border-bottom: 1px solid $card-portfolio;
+  @media screen and(min-width:768px) {
+    flex-grow: 1;
+  }
 }
 
 .card__title {

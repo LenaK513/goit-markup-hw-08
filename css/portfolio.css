@@ -777,6 +777,14 @@ body.modal-open {
   border-bottom: 1px solid #eeeeee;
 }
 
+@media screen and (min-width: 768px) {
+  .card__name {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+}
+
 .card__title {
   font-family: Roboto;
   font-weight: 700;
