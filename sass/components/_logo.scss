@@ -26,7 +26,7 @@
 }
 
 .logo__footer {
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 1199px) {
     display: block;
     text-align: center;
   }
