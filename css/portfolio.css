@@ -691,10 +691,6 @@ body.modal-open {
     -ms-flex-preferred-size: calc((100% - 4 * 15px) / 2);
         flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    height: 100%;
   }
 }
 
@@ -727,6 +723,15 @@ body.modal-open {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    height: 100%;
   }
 }
 
