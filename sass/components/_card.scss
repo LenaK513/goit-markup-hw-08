@@ -12,9 +12,6 @@
     justify-content: center;
     width: 100%;
   }
-  @media screen and(min-width:768px) {
-    height: 100%;
-  }
 }
 
 .card__img {
@@ -63,7 +60,7 @@
 }
 .card__name--grow {
   @media screen and(min-width:768px) {
-    flex-grow: 5;
+    flex-grow: 2;
   }
 }
 .card__title {

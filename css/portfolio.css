@@ -691,6 +691,7 @@ body.modal-open {
     -ms-flex-preferred-size: calc((100% - 4 * 15px) / 2);
         flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
+    height: 100%;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -726,12 +727,6 @@ body.modal-open {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .card {
-    height: 100%;
   }
 }
 
@@ -790,9 +785,9 @@ body.modal-open {
 
 @media screen and (min-width: 768px) {
   .card__name--grow {
-    -webkit-box-flex: 5;
-        -ms-flex-positive: 5;
-            flex-grow: 5;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
   }
 }
 
