@@ -50,11 +50,12 @@
 
 .nav__list {
   @extend %ul;
-  display: flex;
-  align-items: center;
-  @media screen and(max-width:1199px) {
-    margin-left: 88px;
-  }
+
+  // @media screen and(max-width:1199px) {
+  //   margin-left: 88px;
+  //   display: flex;
+  //   align-items: center;
+  // }
 }
 
 .nav__item {
@@ -66,10 +67,10 @@
       margin-bottom: 302px;
     }
   }
-  @media screen and(min-width:768px) {
-    &:not(:last-child) {
-      margin-right: 50px;
-    }
+  // @media screen and(min-width:768px) {
+  //   &:not(:last-child) {
+  //     margin-right: 50px;
+  //   }
 
     position: relative;
   }
