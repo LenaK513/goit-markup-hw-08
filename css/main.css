@@ -137,27 +137,16 @@ body.modal-open {
   }
 }
 
+.nav__item {
+  position: relative;
+}
+
 @media screen and (max-width: 767px) {
   .nav__item:not(:last-child) {
     margin-bottom: 32px;
   }
   .nav__item:last-child {
     margin-bottom: 302px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .nav__item {
-    position: relative;
-  }
-  .nav__item:not(:last-child) {
-    margin-right: 50px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .nav__item:first-child {
-    margin-left: 93px;
   }
 }
 
@@ -264,9 +253,6 @@ body.modal-open {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
