@@ -343,11 +343,27 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                src="./images/person2.jpg"
-                alt="Ольга Репина"
-                class="team__img list"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/person2.webp     480w,
+                    ./images/person2@2x.webp  768w,
+                    ./images/person2@3x.webp 1200w
+                  "
+                  type="image/webp"
+                />
+                <img
+                  srcset="
+                    ./images/person2.jpg     480w,
+                    ./images/person2@2x.jpg  768w,
+                    ./images/person2@3x.jpg 1200w
+                  "
+                  src="./images/person2.jpg"
+                  alt="Ольга Репина"
+                  class="team__img list"
+                />
+              </picture>
+
               <div class="team__description">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p lang="en" class="team__position">Frontend Developer</p>
