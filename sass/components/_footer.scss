@@ -111,7 +111,7 @@
 // Sumbit-block
 
 .submit-block {
-  @media screen and(max-width:1199px) {
+  @media screen and(min-width:768px) {
     max-width: 450px;
     margin-left: 166px;
   }

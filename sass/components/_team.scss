@@ -21,7 +21,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: $color-secondary;
+    color: $color-primary;
     margin-bottom: 30px;
   }
 }
@@ -57,7 +57,7 @@
       margin-bottom: 30px;
     }
   }
-  @media screen and(max-width:1199px) {
+  @media screen and(min-width:768px) {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
@@ -87,11 +87,17 @@
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.19;
   color: $color-primary;
   margin-top: 0;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 .team__position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: $color-secondary;
   margin-top: 0;
   margin-bottom: 16px;

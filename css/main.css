@@ -230,8 +230,8 @@ body.modal-open {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -663,6 +663,7 @@ body.modal-open {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -775,6 +776,12 @@ body.modal-open {
 
 @media screen and (max-width: 1199px) {
   .title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     margin-bottom: 30px;
   }
 }
@@ -785,7 +792,7 @@ body.modal-open {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .team__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -827,7 +834,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .team__item {
     -ms-flex-preferred-size: calc((100% - 4 * 15px) / 2);
         flex-basis: calc((100% - 4 * 15px) / 2);
@@ -868,12 +875,18 @@ body.modal-open {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.19;
   color: #212121;
   margin-top: 0;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 
 .team__position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #757575;
   margin-top: 0;
   margin-bottom: 16px;
@@ -1207,7 +1220,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .submit-block {
     max-width: 450px;
     margin-left: 166px;
