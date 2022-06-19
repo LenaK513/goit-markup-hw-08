@@ -34,7 +34,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   // margin: 0;
-  @media screen and(max-width:1199px) {
+  @media screen and(min-width:768px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
