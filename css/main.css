@@ -137,6 +137,18 @@ body.modal-open {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 88px;
+  }
+}
+
 .nav__item {
   position: relative;
 }
@@ -271,14 +283,14 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .contact-list__item:first-child {
     margin-top: 32px;
     margin-bottom: 64px;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .contact-list__item:first-child {
     margin-bottom: 10px;
   }
@@ -935,7 +947,7 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .social-net__link--menu {
     display: none;
   }
