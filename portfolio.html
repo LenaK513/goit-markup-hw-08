@@ -119,10 +119,66 @@
             <li class="card-set__item">
               <a href="" class="card">
                 <div class="card__thumb">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/img1-mob.webp    1x,
+                        ./images/img1-mob@2x.webp 2x,
+                        ./images/img1-mob@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(max-width: 767px)"
+                    />
+    
+                    <source
+                      srcset="
+                        ./images/img1-mob.jpg    1x,
+                        ./images/img1-mob@2x.jpg 2x,
+                        ./images/img1-mob@3x.jpg 3x
+                      "
+                      type="image/jpeg"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img1-tab.webp    1x,
+                        ./images/img1-tab@2x.webp 2x,
+                        ./images/img1-tab@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img1-tab.jpg    1x,
+                        ./images/img1-tab@2x.jpg 2x,
+                        ./images/img1-tab@3x.jpg 3x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img1-disp.webp    1x,
+                        ./images/img1-disp@2x.webp 2x,
+                        ./images/img1-disp@3x.webp 3x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img1-disp.jpg    1x,
+                        ./images/img1-disp@2x.jpg 2x,
+                        ./images/img1-disp@3x.jpg 3x
+                      "
+                      type="image/jpeg"
+                      media="(min-width: 1200px)"
+                    />
                   <img
-                    src="./images/img1.jpg"
+                    src="./images/img1-mob.jpg"
                     alt="Технокряк"
-                    width="370"
+                   
                     class="card__img"
                   />
                   <div class="card__wrap">
