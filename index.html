@@ -591,26 +591,72 @@
               </div>
             </li>
             <li class="team__item">
-              <picture>
+              <div class="team__thumb">
+               <picture>
                 <source
                   srcset="
-                    ./images/person4.webp     480w,
-                    ./images/person4@2x.webp  768w,
-                    ./images/person4@3x.webp 1200w
+                    ./images/person4-mob.webp    1x,
+                    ./images/person4-mob@2x.webp 2x,
+                    ./images/person4-mob@3x.webp 3x
                   "
                   type="image/webp"
+                  media="(max-width: 767px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/person4-mob.jpg    1x,
+                    ./images/person4-mob@2x.jpg 2x,
+                    ./images/person4-mob@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/person4-tab.webp    1x,
+                    ./images/person4-tab@2x.webp 2x,
+                    ./images/person4-tab@3x.webp 3x
+                  "
+                  type="image/webp"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/person4-tab.jpg    1x,
+                    ./images/person4-tab@2x.jpg 2x,
+                    ./images/person4-tab@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/person4-disp.webp    1x,
+                    ./images/person4-disp@2x.webp 2x,
+                    ./images/person4-disp@3x.webp 3x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/person4-disp.jpg    1x,
+                    ./images/person4-disp@2x.jpg 2x,
+                    ./images/person4-disp@3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
                 />
                 <img
-                  srcset="
-                    ./images/person4.jpg     480w,
-                    ./images/person4@2x.jpg  768w,
-                    ./images/person4@3x.jpg 1200w
-                  "
-                  src="./images/person4.jpg"
+                 
+                  src="./images/person4-mob.jpg"
                   alt="Михаил Ермаков"
                   class="team__img"
                 />
               </picture>
+              </div>
+              
 
               <div class="team__description">
                 <h3 class="team__name">Михаил Ермаков</h3>
