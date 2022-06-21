@@ -1,6 +1,8 @@
 .hero {
   @extend %img;
-
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   color: $color-third;
   background-color: $color-background;
   letter-spacing: 0.06em;
@@ -32,9 +34,6 @@
 }
 
 .hero {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   background-image: url(../images/hero480.jpg);
 
   @media (min-device-pixel-ratio: 2),
