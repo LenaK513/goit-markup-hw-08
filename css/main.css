@@ -378,6 +378,8 @@ body.modal-open {
 }
 
 .hero {
+  margin-left: auto;
+  margin-right: auto;
   color: #ffffff;
   background-color: #2f303a;
   letter-spacing: 0.06em;
@@ -393,9 +395,6 @@ body.modal-open {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
   }
 }
 
@@ -403,17 +402,11 @@ body.modal-open {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 1600px;
-    text-align: center;
   }
 }
 
 .hero {
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
   background-image: url(../images/hero480.jpg);
 }
 
