@@ -1,4 +1,4 @@
-.team__container {
+.team {
   background-color: $color-addbackground;
   @media screen and (max-width: 1199px) {
     padding-top: 60px;
@@ -36,7 +36,7 @@
     justify-content: center;
   }
 
-  @media screen and(max-width:1199px) {
+  @media screen and(min-width:768px) and(max-width:1199px) {
     display: flex;
     flex-wrap: wrap;
 
@@ -73,10 +73,6 @@
 }
 
 .team__thumb {
-  // display: flex;
-  // justify-content: center;
-  // flex-direction: column;
-  // align-items: center;
   max-width: 1200px;
   min-width: 270px;
   margin: 0 auto;

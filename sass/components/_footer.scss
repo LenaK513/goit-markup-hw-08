@@ -16,6 +16,8 @@
 .tablet {
   @media screen and(min-width:768px) {
     display: flex;
+    margin-bottom: 60px;
+    justify-content: space-around;
   }
 }
 
@@ -25,14 +27,6 @@
   justify-content: center;
   font-size: 14px;
   letter-spacing: 0.03em;
-
-  @media screen and(max-width:1199px) {
-    margin-bottom: 60px;
-  }
-  @media screen and(min-width:768px) {
-    margin-left: 76px;
-    margin-right: 165px;
-  }
 
   @media screen and(min-width:1200px) {
     margin-left: 0;
@@ -48,7 +42,6 @@
   @media screen and(max-width:1199px) {
     text-align: center;
   }
-  // margin-top: 20px;
 }
 
 .address__location {
@@ -84,12 +77,6 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.join-block {
-  @media screen and(max-width:1199px) {
-    margin-bottom: 60px;
-  }
-}
-
 .join-block__title {
   font-family: Roboto;
   font-weight: 700;
@@ -111,12 +98,12 @@
 // Sumbit-block
 
 .submit-block {
-  @media screen and(min-width:768px) {
+  @media screen and(min-width:768px) and(max-width:1199px) {
     max-width: 450px;
     margin-left: 166px;
   }
   @media screen and(min-width:1200px) {
-    margin-left: 93px;
+    margin-left: auto;
   }
 }
 .submit-block__form {
