@@ -409,6 +409,9 @@ body.modal-open {
 }
 
 .hero {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url(../images/hero480.jpg);
 }
 
