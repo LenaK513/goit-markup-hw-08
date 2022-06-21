@@ -118,6 +118,19 @@ body.modal-open {
   right: 15px;
 }
 
+.mobile-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media screen and (max-width: 767px) {
   .general-menu {
     display: none;
@@ -155,9 +168,6 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .nav__item:not(:last-child) {
     margin-bottom: 32px;
-  }
-  .nav__item:last-child {
-    margin-bottom: 302px;
   }
 }
 
@@ -378,6 +388,7 @@ body.modal-open {
 }
 
 .hero {
+  display: block;
   color: #ffffff;
   background-color: #2f303a;
   letter-spacing: 0.06em;

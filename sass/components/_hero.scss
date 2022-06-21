@@ -1,6 +1,6 @@
 .hero {
   @extend %img;
-
+  display: block;
   color: $color-third;
   background-color: $color-background;
   letter-spacing: 0.06em;
